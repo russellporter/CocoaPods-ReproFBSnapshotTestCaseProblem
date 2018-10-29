@@ -13,6 +13,8 @@
 		3D7188552187420200D9A159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7188542187420200D9A159 /* Assets.xcassets */; };
 		3D7188582187420200D9A159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7188562187420200D9A159 /* LaunchScreen.storyboard */; };
 		3D7188632187420200D9A159 /* ReproFBSnapshotTestCaseProblemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7188622187420200D9A159 /* ReproFBSnapshotTestCaseProblemTests.swift */; };
+		3D7188702187444D00D9A159 /* ReproFBSnapshotTestCaseProblemObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71886F2187444D00D9A159 /* ReproFBSnapshotTestCaseProblemObjCTests.m */; };
+		A5E4994090AD4B0CAB37C408 /* libPods-ReproFBSnapshotTestCaseProblemTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EB9E854C7D0EACA17C5C6A /* libPods-ReproFBSnapshotTestCaseProblemTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E3C233D407F37F61F8BAF25 /* Pods-ReproFBSnapshotTestCaseProblemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReproFBSnapshotTestCaseProblemTests.release.xcconfig"; path = "Target Support Files/Pods-ReproFBSnapshotTestCaseProblemTests/Pods-ReproFBSnapshotTestCaseProblemTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D71884A2187420100D9A159 /* ReproFBSnapshotTestCaseProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproFBSnapshotTestCaseProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D71884D2187420100D9A159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D71884F2187420100D9A159 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,10 @@
 		3D71885E2187420200D9A159 /* ReproFBSnapshotTestCaseProblemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReproFBSnapshotTestCaseProblemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7188622187420200D9A159 /* ReproFBSnapshotTestCaseProblemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReproFBSnapshotTestCaseProblemTests.swift; sourceTree = "<group>"; };
 		3D7188642187420200D9A159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D71886D2187444D00D9A159 /* ReproFBSnapshotTestCaseProblemTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReproFBSnapshotTestCaseProblemTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D71886F2187444D00D9A159 /* ReproFBSnapshotTestCaseProblemObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReproFBSnapshotTestCaseProblemObjCTests.m; sourceTree = "<group>"; };
+		A14AFB3BFC32963F6F91B3F3 /* Pods-ReproFBSnapshotTestCaseProblemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReproFBSnapshotTestCaseProblemTests.debug.xcconfig"; path = "Target Support Files/Pods-ReproFBSnapshotTestCaseProblemTests/Pods-ReproFBSnapshotTestCaseProblemTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4EB9E854C7D0EACA17C5C6A /* libPods-ReproFBSnapshotTestCaseProblemTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReproFBSnapshotTestCaseProblemTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E4994090AD4B0CAB37C408 /* libPods-ReproFBSnapshotTestCaseProblemTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +70,8 @@
 				3D71884C2187420100D9A159 /* ReproFBSnapshotTestCaseProblem */,
 				3D7188612187420200D9A159 /* ReproFBSnapshotTestCaseProblemTests */,
 				3D71884B2187420100D9A159 /* Products */,
+				D4BF1F4B93102DBB1934BF90 /* Pods */,
+				4D0DD24CBC0F8FEC1D175B65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +102,27 @@
 			children = (
 				3D7188622187420200D9A159 /* ReproFBSnapshotTestCaseProblemTests.swift */,
 				3D7188642187420200D9A159 /* Info.plist */,
+				3D71886F2187444D00D9A159 /* ReproFBSnapshotTestCaseProblemObjCTests.m */,
+				3D71886D2187444D00D9A159 /* ReproFBSnapshotTestCaseProblemTests-Bridging-Header.h */,
 			);
 			path = ReproFBSnapshotTestCaseProblemTests;
+			sourceTree = "<group>";
+		};
+		4D0DD24CBC0F8FEC1D175B65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4EB9E854C7D0EACA17C5C6A /* libPods-ReproFBSnapshotTestCaseProblemTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4BF1F4B93102DBB1934BF90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A14AFB3BFC32963F6F91B3F3 /* Pods-ReproFBSnapshotTestCaseProblemTests.debug.xcconfig */,
+				2E3C233D407F37F61F8BAF25 /* Pods-ReproFBSnapshotTestCaseProblemTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D71886A2187420200D9A159 /* Build configuration list for PBXNativeTarget "ReproFBSnapshotTestCaseProblemTests" */;
 			buildPhases = (
+				4CCB4585C326C90CA31FCA95 /* [CP] Check Pods Manifest.lock */,
 				3D71885A2187420200D9A159 /* Sources */,
 				3D71885B2187420200D9A159 /* Frameworks */,
 				3D71885C2187420200D9A159 /* Resources */,
@@ -149,6 +179,7 @@
 					};
 					3D71885D2187420200D9A159 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 						TestTargetID = 3D7188492187420100D9A159;
 					};
 				};
@@ -192,6 +223,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CCB4585C326C90CA31FCA95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReproFBSnapshotTestCaseProblemTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D7188462187420100D9A159 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -206,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7188702187444D00D9A159 /* ReproFBSnapshotTestCaseProblemObjCTests.m in Sources */,
 				3D7188632187420200D9A159 /* ReproFBSnapshotTestCaseProblemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,9 +451,10 @@
 		};
 		3D71886B2187420200D9A159 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14AFB3BFC32963F6F91B3F3 /* Pods-ReproFBSnapshotTestCaseProblemTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBYVMD92UJ;
 				INFOPLIST_FILE = ReproFBSnapshotTestCaseProblemTests/Info.plist;
@@ -407,6 +465,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.autoscout24.ios.ReproFBSnapshotTestCaseProblemTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReproFBSnapshotTestCaseProblemTests/ReproFBSnapshotTestCaseProblemTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReproFBSnapshotTestCaseProblem.app/ReproFBSnapshotTestCaseProblem";
@@ -415,9 +475,10 @@
 		};
 		3D71886C2187420200D9A159 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3C233D407F37F61F8BAF25 /* Pods-ReproFBSnapshotTestCaseProblemTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBYVMD92UJ;
 				INFOPLIST_FILE = ReproFBSnapshotTestCaseProblemTests/Info.plist;
@@ -428,6 +489,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.autoscout24.ios.ReproFBSnapshotTestCaseProblemTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReproFBSnapshotTestCaseProblemTests/ReproFBSnapshotTestCaseProblemTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReproFBSnapshotTestCaseProblem.app/ReproFBSnapshotTestCaseProblem";

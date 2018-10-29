@@ -1,0 +1,6 @@
+module Pods_ReproFBSnapshotTestCaseProblemTests {
+  umbrella header "Pods-ReproFBSnapshotTestCaseProblemTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
